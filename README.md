@@ -1,38 +1,21 @@
-# create-svelte
+# Movie Explorer
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## About The Project
 
-## Creating a project
+Movie Explorer is a web application I developed as my first project with Svelte and SvelteKit. It marks the beginning of my journey into modern web development, focusing on learning and applying new technologies. This project showcases popular movies using The Movie Database (TMDb) API, offering a platform for movie enthusiasts to explore and discover trending cinematic works.
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Why I Built Movie Explorer
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- **Learning and Growth**: To challenge myself and deepen my understanding of Svelte, SvelteKit, and web development in general.
+- **API Integration**: To gain hands-on experience in integrating external APIs and handling dynamic data.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### Features
 
-## Developing
+- Browse the most popular movies updated weekly.
+- View detailed information about each movie, including synopsis, cast, and ratings.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Built With
 
-```bash
-npm run dev
+- [SvelteKit](https://kit.svelte.dev/)
+- [The Movie Database API](https://www.themoviedb.org/documentation/api)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
